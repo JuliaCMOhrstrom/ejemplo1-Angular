@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.row{
+    border: 2px solid;
+    text-align: center;
+    color:darkblue;
+    background-color: dodgerblue;
+}
+.card-header h1{
+    background-color: crimson;
+    color:coral
+}
+input{
+    width: 60%;
+}
+label{
+    color:black;
+    text-align:right;
+}
+h1{
+    font-family: 'Acme', sans-serif;
+}
+.col-6{
+    border: 1.25px;
+}
+.resultado{
+    border: 1.25px;
+
+}

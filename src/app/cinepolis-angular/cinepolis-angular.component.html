@@ -1,0 +1,37 @@
+
+<div class="row">
+    <div class="card-heard">
+        <h1>CINEPOLIS</h1>
+    </div>
+    <div class="col-6">
+        <div class="mb-3">
+            <label for="" class="from-label" >Nombre:</label>
+            <input type="text" class="form-control" name="nombre" [(ngModel)]="nombre">
+        </div>
+        <div class="mb-3">
+            <label for="" class="from-label">Cantidad de personas:</label>
+            <input type="text" class="form-control" name="compradores" [(ngModel)]="compradores">
+        </div>
+        <div class="mb-3">
+            <label for="" class="from-label">Tarjeta Cineco</label>
+           Sí <input type="radio" name="tarjeta" value="1" [(ngModel)]="tarjeta">
+           No <input type="radio" name="tarjeta" value="0" [(ngModel)]="tarjeta">
+        </div>
+        <div class="mb-3">
+            <label for="" class="from-label">Cantidad de boletos</label>
+            <input type="text" class="form-control" name="boletos" [(ngModel)]="boletos">
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="mb-3">
+            <button class="btn btn-primary" (click)="cantidad()">Procesar</button>
+        </div>
+
+    </div>
+    <div class="resultado">
+        <div class="mb-3">
+            Nombre: {{nombre}}
+            {{mensaje}}
+        </div>
+    </div>
+</div>
